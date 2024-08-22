@@ -1,6 +1,6 @@
 {
-    "name": "ludo",
-    "short_name": "ludo",
+    "name": "portfolio_website",
+    "short_name": "portfolio_website",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
