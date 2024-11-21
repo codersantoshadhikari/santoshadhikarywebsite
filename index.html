@@ -1,153 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modern Website</title>
-  <style>
-    /* Basic Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
 
-    /* Body Styling */
-    body {
-      font-family: 'Arial', sans-serif;
-      line-height: 1.6;
-      background: #f4f4f4;
-      color: #333;
-    }
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="portfolio_website">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-    /* Header Styling */
-    header {
-      background: #333;
-      color: #fff;
-      padding: 20px 0;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 2.5rem;
-    }
-
-    /* Navigation Bar */
-    nav {
-      display: flex;
-      justify-content: center;
-      background: #555;
-    }
-
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      padding: 15px 20px;
-      display: block;
-    }
-
-    nav a:hover {
-      background: #333;
-    }
-
-    /* Hero Section */
-    .hero {
-      background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
-      height: 300px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #fff;
-    }
-
-    .hero h2 {
-      font-size: 3rem;
-    }
-
-    /* Main Content */
-    main {
-      padding: 20px;
-    }
-
-    .content-section {
-      margin-bottom: 20px;
-    }
-
-    .content-section h3 {
-      margin-bottom: 10px;
-    }
-
-    .content-section p {
-      margin-bottom: 10px;
-    }
-
-    /* Footer Styling */
-    footer {
-      background: #333;
-      color: #fff;
-      text-align: center;
-      padding: 10px 0;
-      margin-top: 20px;
-    }
-
-    footer p {
-      font-size: 0.9rem;
-    }
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
-      .hero h2 {
-        font-size: 2rem;
-      }
-
-      nav a {
-        padding: 10px;
-      }
-    }
-  </style>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="web/favicon.ico"/>
+  <title>portfolio_website</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <h1>My Modern Website</h1>
-  </header>
-
-  <!-- Navigation -->
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <!-- Hero Section -->
-  <div class="hero">
-    <h2>Welcome to My Website</h2>
-  </div>
-
-  <!-- Main Content -->
-  <main>
-    <section id="home" class="content-section">
-      <h3>Home</h3>
-      <p>This is the home section. Add some introductory text here.</p>
-    </section>
-    <section id="about" class="content-section">
-      <h3>About</h3>
-      <p>Write about yourself or your website's purpose in this section.</p>
-    </section>
-    <section id="services" class="content-section">
-      <h3>Services</h3>
-      <p>Detail the services or products you offer.</p>
-    </section>
-    <section id="contact" class="content-section">
-      <h3>Contact</h3>
-      <p>Add your contact details or a contact form here.</p>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2024 My Modern Website | Designed by You</p>
-  </footer>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
